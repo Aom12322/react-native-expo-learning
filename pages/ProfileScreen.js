@@ -12,6 +12,10 @@ export default function ProfileScreen({ navigation }) {
       <Button title="Go to Details"
         onPress={() => navigation.navigate("Details")}
       />
+      <Text></Text>
+      <Button title="Go to Counter"
+        onPress={() => navigation.navigate("Counter")}
+      />
     </View>
   );
 }
